@@ -30,6 +30,8 @@ values."
      ;; better-defaults
      emacs-lisp
      osx
+     javascript
+     octave
      ;; git
      ;; markdown
      ;; org
