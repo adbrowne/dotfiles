@@ -1,0 +1,5 @@
+$if Octave
+$else  
+set editing-mode vi
+set keymap vi-command
+$endif
