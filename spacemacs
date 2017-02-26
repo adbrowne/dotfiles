@@ -32,6 +32,9 @@ values."
      osx
      javascript
      octave
+     markdown
+     python
+     yaml
      ;; git
      ;; markdown
      ;; org
@@ -63,6 +66,7 @@ values."
   ;; This setq-default sexp is an exhaustive list of all the supported
   ;; spacemacs settings.
   (setq-default
+   dotspacemacs-line-numbers 't
    ;; One of `vim', `emacs' or `hybrid'. Evil is always enabled but if the
    ;; variable is `emacs' then the `holy-mode' is enabled at startup. `hybrid'
    ;; uses emacs key bindings for vim's insert mode, but otherwise leaves evil
@@ -205,6 +209,7 @@ user code."
  This function is called at the very end of Spacemacs initialization after
 layers configuration. You are free to put any user code."
   (global-linum-mode)
+  (setq javascript-indent-level 2)
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
